@@ -1,0 +1,14 @@
+/* CSS */
+@keyframes lineAnimation {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  .animate-line {
+    animation: lineAnimation 4s ease-out;
+  }
+  
